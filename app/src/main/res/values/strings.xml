@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Penguinone</string>
     <string name="background">background</string>
+    <string name="molecule">molecule</string>
+    <string name="button">button</string>
+    <string name="reduce_your_environmental_footprint">reduce your environmental footprint</string>
+    <string name="take_an_environmental_purity_test">take an environmental purity test</string>
 </resources>

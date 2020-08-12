@@ -19,4 +19,79 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="258dp"
+        android:layout_height="229dp"
+        android:layout_marginTop="128dp"
+        android:contentDescription="@string/molecule"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/molecule" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/app_name"
+        android:textColor="@android:color/white"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/houseButton"
+        android:layout_width="325dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="152dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/button"
+        android:onClick="next"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@mipmap/button" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reduce_your_environmental_footprint"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/houseButton"
+        app:layout_constraintEnd_toEndOf="@+id/houseButton"
+        app:layout_constraintStart_toStartOf="@+id/houseButton"
+        app:layout_constraintTop_toTopOf="@+id/houseButton" />
+
+    <ImageButton
+        android:id="@+id/quizButton"
+        android:layout_width="311dp"
+        android:layout_height="84dp"
+        android:layout_marginBottom="56dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/button"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@mipmap/button" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/take_an_environmental_purity_test"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/quizButton"
+        app:layout_constraintEnd_toEndOf="@+id/quizButton"
+        app:layout_constraintStart_toStartOf="@+id/quizButton"
+        app:layout_constraintTop_toTopOf="@+id/quizButton" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
