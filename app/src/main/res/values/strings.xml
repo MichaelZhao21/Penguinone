@@ -3,6 +3,7 @@
     <string name="background">background</string>
     <string name="molecule">molecule</string>
     <string name="button">button</string>
-    <string name="reduce_your_environmental_footprint">reduce your environmental footprint</string>
-    <string name="take_an_environmental_purity_test">take an environmental purity test</string>
+    <string name="reduceFootprintTitle">reduce your environmental footprint</string>
+    <string name="enviroPurityTest">take an environmental purity test</string>
+    <string name="toxicCount">The average American household contains about 62 toxic chemicals</string>
 </resources>
