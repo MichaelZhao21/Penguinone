@@ -17,9 +17,9 @@ public class TitleActivity extends AppCompatActivity {
     public void next(View view) {
         Intent intent;
         if (view.getId() == R.id.houseButton)
-            intent = new Intent(this, QuizActivity.class);
+            intent = new Intent(this, HouseActivity.class);
         else
-        intent = new Intent(this, TransitionActivity.class);
+            intent = new Intent(this, TransitionActivity.class);
         startActivity(intent);
     }
 }

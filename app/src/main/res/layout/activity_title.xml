@@ -78,6 +78,7 @@
         android:layout_marginBottom="72dp"
         android:background="#00FFFFFF"
         android:contentDescription="@string/button"
+        android:onClick="next"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="@+id/backgroundWave"
         app:layout_constraintEnd_toEndOf="parent"
