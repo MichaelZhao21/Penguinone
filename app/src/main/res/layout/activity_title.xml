@@ -8,55 +8,30 @@
     tools:context=".TitleActivity">
 
     <ImageView
-        android:id="@+id/backgroundWave"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="48dp"
-        android:contentDescription="@string/background"
-        android:scaleType="centerCrop"
-        android:src="@mipmap/background"
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/none"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/molecImage"
-        android:layout_width="258dp"
-        android:layout_height="229dp"
-        android:layout_marginTop="128dp"
-        android:contentDescription="@string/molecule"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/molecule" />
-
-    <TextView
-        android:id="@+id/title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:fontFamily="sans-serif"
-        android:text="@string/app_name"
-        android:textColor="@android:color/white"
-        android:textSize="50sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:srcCompat="@mipmap/Title" />
 
     <ImageButton
         android:id="@+id/houseButton"
         android:layout_width="325dp"
         android:layout_height="75dp"
-        android:layout_marginBottom="184dp"
+        android:layout_marginTop="472dp"
+        android:layout_marginBottom="28dp"
         android:background="#00FFFFFF"
         android:contentDescription="@string/button"
         android:onClick="next"
         android:scaleType="fitCenter"
-        app:layout_constraintBottom_toBottomOf="@+id/backgroundWave"
+        app:layout_constraintBottom_toTopOf="@+id/quizButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@mipmap/button" />
 
     <TextView
@@ -75,14 +50,14 @@
         android:id="@+id/quizButton"
         android:layout_width="311dp"
         android:layout_height="84dp"
-        android:layout_marginBottom="72dp"
+        android:layout_marginTop="28dp"
         android:background="#00FFFFFF"
         android:contentDescription="@string/button"
         android:onClick="next"
         android:scaleType="fitCenter"
-        app:layout_constraintBottom_toBottomOf="@+id/backgroundWave"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/houseButton"
         app:srcCompat="@mipmap/button" />
 
     <TextView

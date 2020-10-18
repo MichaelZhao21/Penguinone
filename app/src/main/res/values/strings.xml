@@ -6,4 +6,5 @@
     <string name="reduceFootprintTitle">reduce your environmental footprint</string>
     <string name="enviroPurityTest">take an environmental purity test</string>
     <string name="toxicCount">The average American household contains about 62 toxic chemicals</string>
+    <string name="none">none</string>
 </resources>
