@@ -22,6 +22,7 @@ public class HouseActivity extends AppCompatActivity {
         else if (view.getId() == R.id.kitchenButton) {
             intent = new Intent(this, KitchenActivity.class);
         }
-        startActivity(intent);
+
+        if (intent != null) startActivity(intent);
     }
 }

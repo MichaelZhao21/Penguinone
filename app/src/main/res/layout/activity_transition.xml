@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#AAE5C3"
+    android:background="#B2EFF3"
     tools:context=".TransitionActivity">
 
     <TextView
@@ -14,8 +14,9 @@
         android:lineSpacingExtra="20sp"
         android:text="@string/toxicCount"
         android:textAlignment="center"
-        android:textColor="@android:color/white"
+        android:textColor="@android:color/tab_indicator_text"
         android:textSize="25sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

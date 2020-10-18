@@ -3,30 +3,32 @@
     <string name="background">background</string>
     <string name="molecule">molecule</string>
     <string name="button">button</string>
-    <string name="reduceFootprintTitle">reduce your environmental footprint</string>
-    <string name="enviroPurityTest">take an environmental purity test</string>
+    <string name="reduceFootprintTitle">reduce your chemical footprint</string>
+    <string name="enviroPurityTest">take an chemical purity test</string>
     <string name="toxicCount">The average American household contains about 62 toxic chemicals</string>
     <string name="none">none</string>
-    <string-array name="quiz">
-        <item>I use products containing Phthalates (commonly found in perfumes and colognes)</item>
-        <item>My toothpaste contains Sodium Lauryl Sulfate</item>
-        <item>I use products containing Triclosan (commonly found in hand and dish soap)</item>
-        <item>I use products containing Parabens (commonly found in deodorant and makeup)</item>
-        <item>I use skin whitener or skin bleacher </item>
-        <item>My glass polisher contains ammonia </item>
-        <item>I use disinfectant wipes containing 2-butoxyethanol</item>
-        <item>I rarely use public transportation services (bus, train, etc)</item>
-        <item>My fabric softener contain Quaternary Ammonium salts</item>
-        <item>I use antiperspirants containing Aluminum, Propylene Glycol, or Parabens</item>
-        <item>I leave the lights on when I leave the house</item>
-        <item>My vehicle gets less than 30 miles per gallon </item>
-        <item>I use compact fluorescent lightbulbs </item>
-        <item>I drink bottled water </item>
-        <item>I flush my unused prescription drug down the toilet </item>
-        <item>I use plastic bag to carry my groceries </item>
-        <item>I leave the faucet on when I brush my teeth and shave</item>
-        <item>My house contains appliances older than 15 years</item>
-        <item>I use lipstick containing leads</item>
-        <item>I use artificial air freshener </item>
-    </string-array>
+    <string name="submit">Submit!</string>
+    <string name="quiz1">I use products containing Phthalates (commonly found in perfumes and colognes)</string>
+    <string name="quiz2">My toothpaste contains Sodium Lauryl Sulfate</string>
+    <string name="quiz3">I use products containing Triclosan (commonly found in hand and dish soap)</string>
+    <string name="quiz4">I use products containing Parabens (commonly found in deodorant and makeup)</string>
+    <string name="quiz5">I use skin whitener or skin bleacher </string>
+    <string name="quiz6">My glass polisher contains ammonia </string>
+    <string name="quiz7">I use disinfectant wipes containing 2-butoxyethanol</string>
+    <string name="quiz8">I rarely use public transportation services (bus, train, etc)</string>
+    <string name="quiz9">My fabric softener contain Quaternary Ammonium salts</string>
+    <string name="quiz10">I use antiperspirants containing Aluminum, Propylene Glycol, or Parabens</string>
+    <string name="quiz11">I leave the lights on when I leave the house</string>
+    <string name="quiz12">My vehicle gets less than 30 miles per gallon </string>
+    <string name="quiz13">I use compact fluorescent lightbulbs </string>
+    <string name="quiz14">I drink bottled water </string>
+    <string name="quiz15">I flush my unused prescription drug down the toilet </string>
+    <string name="quiz16">I use plastic bag to carry my groceries </string>
+    <string name="quiz17">I leave the faucet on when I brush my teeth and shave</string>
+    <string name="quiz18">My house contains appliances older than 15 years</string>
+    <string name="quiz19">I use lipstick containing leads</string>
+    <string name="quiz20">I use artificial air freshener </string>
+    <string name="chemTest">The Unofficial Chemical Purity Test</string>
+    <string name="score">Your Score:</string>
+    <string name="home">Return home</string>
 </resources>
