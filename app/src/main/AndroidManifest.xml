@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".KitchenActivity"></activity>
+        <activity android:name=".DeodorantActivity"></activity>
+        <activity android:name=".DishSoapActivity" />
+        <activity android:name=".KitchenActivity" />
         <activity android:name=".BedroomActivity" />
         <activity android:name=".HouseActivity" />
         <activity android:name=".QuizActivity" />

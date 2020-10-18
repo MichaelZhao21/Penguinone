@@ -6,4 +6,31 @@
     android:layout_height="match_parent"
     tools:context=".BedroomActivity">
 
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/Bedroom" />
+
+    <ImageButton
+        android:id="@+id/deodorant"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="61dp"
+        android:layout_height="111dp"
+        android:layout_marginStart="307dp"
+        android:layout_marginTop="323dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="297dp"
+        android:contentDescription="@string/none"
+        android:onClick="next"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="@+id/imageView4" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
