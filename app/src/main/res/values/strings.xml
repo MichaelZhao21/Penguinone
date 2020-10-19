@@ -34,4 +34,8 @@
     <string name="quiz80">Good job! You have a pretty safe lifestyle!</string>
     <string name="quiz50">You use some hazardous chemicals. Use this app to learn how you can improve!</string>
     <string name="quiz0">Oh no! You use a lot of hazardous chemicals that are toxic to you and the environment. Use this app to see what products you can replace.</string>
+    <string name="deodorant1">Parabens mimic estrogen, disrupt hormone function, and increase risk of breast cancer</string>
+    <string name="deodorant2">triclosan interferes with the body’s thyroid hormone metabolism, disrupts endocrine system, and harms immune system</string>
+    <string name="soap1">triclosan interferes with the body’s thyroid hormone metabolism</string>
+    <string name="soap2">triclosan disrupts the endocrine system and harms the immune system</string>
 </resources>
