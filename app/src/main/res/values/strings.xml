@@ -31,4 +31,7 @@
     <string name="chemTest">The Unofficial Chemical Purity Test</string>
     <string name="score">Your Score:</string>
     <string name="home">Return home</string>
+    <string name="quiz80">Good job! You have a pretty safe lifestyle!</string>
+    <string name="quiz50">You use some hazardous chemicals. Use this app to learn how you can improve!</string>
+    <string name="quiz0">Oh no! You use a lot of hazardous chemicals that are toxic to you and the environment. Use this app to see what products you can replace.</string>
 </resources>
